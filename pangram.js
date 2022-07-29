@@ -10,7 +10,3 @@ function isPangram(string) {
   if (array.length === 26) return true;
   else return false;
 }
-
-let list = "The quick brown jumps over the lazy dog 1234 *** fox";
-
-console.log(isPangram(list));

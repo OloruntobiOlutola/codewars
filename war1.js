@@ -11,6 +11,3 @@ function descendingOrder(n) {
   }
   return newNum;
 }
-const num = 4321572890;
-
-descendingOrder(num);

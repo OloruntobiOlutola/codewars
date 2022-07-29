@@ -1,12 +1,3 @@
-let input = [
-  [18, 20],
-  [45, 2],
-  [61, 12],
-  [37, 6],
-  [21, 21],
-  [78, 9],
-];
-
 function resolve(input) {
   let output = [];
   input.forEach((element) => {
@@ -16,7 +7,5 @@ function resolve(input) {
       output.push("Open");
     }
   });
-  console.log(output);
+  return output;
 }
-
-resolve(input);
