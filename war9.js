@@ -19,5 +19,3 @@ function spinWords(str) {
   }
   return str.join(" ");
 }
-let result = spinWords("This is another test");
-console.log(result);
