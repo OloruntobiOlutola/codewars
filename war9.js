@@ -19,3 +19,5 @@ function spinWords(str) {
   }
   return str.join(" ");
 }
+
+//  /[a-z  A-Z  0-9]+[@][a-z]+[.][a-z]{2,3}\b/g email
